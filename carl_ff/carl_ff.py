@@ -191,7 +191,7 @@ class ClientAuthRememberListEntry:
     KEY_LENGTH = 0x100
     ENTRY_LENGTH = 0x500
     
-    def __init__(self, host: str, cert: Certificate, port: int = None, scheme: str = 'https', last_modified: datetime = None) -> None:
+    def __init__(self, host: str, cert: ClientCert, port: int = None, scheme: str = 'https', last_modified: datetime = None) -> None:
         '''
         Create a new entry with all necessay values.
 

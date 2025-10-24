@@ -12,11 +12,13 @@ to send a client certificate to a particular server.
 
 ----
 
+<!---
 *carl-ff* can be build and installed as a pip package. The recommended way of installing is via pipx:
 
 ```console
 [user@host ~]$ pipx install carl-ff
 ```
+--->
 
 You can also build *carl-ff* from source by running the following commands:
 
